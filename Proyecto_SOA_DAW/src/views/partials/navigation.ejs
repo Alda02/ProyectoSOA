@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="/" style="color: white;">LOGO</a>
+    
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categorías
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Categoría 1</a></li>
+                    <li><a class="dropdown-item" href="#">Categoría 2</a></li>
+                    <li><a class="dropdown-item" href="#">Categoría 3</a></li>
+                    <li><a class="dropdown-item" href="#">Categoría 4</a></li>
+                    <li><a class="dropdown-item" href="#">Categoría 5</a></li>
+                    <li><a class="dropdown-item" href="#">Categoría 6</a></li>
+                </ul>
+            </div>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <form class="d-flex ms-2 me-auto">
+                    <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Search" style="width: 500px;">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                </form>
+    
+                <style>
+
+                    .style {
+                        transition: opacity 0.5s; 
+                    }
+
+                    .style:hover {
+                        opacity: 0.6; 
+                    }
+
+                </style>
+                
+                <div class="d-flex align-items-center">
+                    <a class="style text-decoration-none text-primary me-3 fw-bold" href="/login">Iniciar Sesión</a>
+                    <a class="style text-decoration-none text-primary me-3 fw-bold" href="#">Pedidos</a>
+                    <a class="style text-decoration-none text-primary me-3 fw-bold" href="/cart">
+                        <box-icon name='cart' type='solid' color='#ffffff'></box-icon>
+                    </a>   
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><b>Administrar</b></a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vender</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/mainScreen">Comprar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Historial y Promociones</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+</body>
+</html>
